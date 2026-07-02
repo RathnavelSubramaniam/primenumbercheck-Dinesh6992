@@ -4,6 +4,7 @@
  * @param {number} n - The number to check.
  * @returns {boolean} True if the number is prime, false otherwise.
  */
+const n=parseInt(process.argv[2]);
 
 function isPrime(num) {
     if (num <= 1) return false;
